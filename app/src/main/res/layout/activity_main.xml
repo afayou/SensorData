@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout    
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <TableRow>
+    <TextView 
+        android:text="传感器数据读取"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />    
+    </TableRow>
+    <TableRow>
+    <TextView 
+        android:id="@+id/orientationView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />    
+    </TableRow>
+    <TableRow>
+    <TextView 
+        android:id="@+id/accelerationView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />    
+    </TableRow>
+    <TableRow>
+    <TextView 
+        android:id="@+id/frequencyView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />    
+    </TableRow>
+    <TableRow>
+    <TextView 
+        android:id="@+id/totalaccelerationView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+    />    
+    </TableRow>     
+    <TableRow>
+    <TextView 
+        android:id="@+id/magneticView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+    />    
+    </TableRow>
+
+</TableLayout>
